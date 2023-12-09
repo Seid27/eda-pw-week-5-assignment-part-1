@@ -27,13 +27,13 @@ let fullName = me.firstName + ' ' + me.lastName;
 
 console.log(fullName);
 
-
-
-
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food
 */
+
+console.log(me.favThreeFoods[0]);
+console.log(me.favThreeFoods[me.favThreeFoods.length-1]);
 
 
 
